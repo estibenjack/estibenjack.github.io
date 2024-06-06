@@ -37,3 +37,57 @@ nav ul {
     /* baby blue - #89CFF0 */
     /* watermelon pink - #FE7F9C */
 }
+
+/* ---------- hero section ---------- */
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32rem;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 350;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.hero-desc {
+    margin: 1.15rem 0 3rem 0;
+    font-size: 1.025rem;
+}
+
+.hero-img {
+    width: 320px;
+    height:320px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    margin-left: 10%;
+    width: 105%;
+    margin-left: -1%;
+    margin-top: -12%;
+}
+
+.social-icons {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.social-icon {
+    cursor: pointer;
+}
