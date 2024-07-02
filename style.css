@@ -43,6 +43,7 @@ nav ul {
 .container {
     max-width: 950px;
     margin: 0 auto;
+    padding: 0 3rem;
 }
 
 .hero-container {
@@ -59,6 +60,7 @@ nav ul {
 
 .name {
     font-weight: bold;
+    display: block;
 }
 
 .hero-desc {
@@ -67,10 +69,9 @@ nav ul {
 }
 
 .hero-img {
-    width: 320px;
-    height:320px;
+    max-width: 320px;
+    max-height:320px;
     overflow: hidden;
-    position: relative;
     border-radius: 50%;
 }
 
