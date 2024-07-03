@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #2d2e32;
+}
+
+/* ---------- navbar ---------- */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 40px 25px 50px;
+  font-size: 1.25rem;
+  box-shadow: 0 0 10px #fb9cd784; /* rgba(0, 0, 0, 0.09) */
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #2d2e32;
+  cursor: pointer;
+  font-size: 1.175rem;
+  font-weight: 600;
+  transition: all 0.2s linear;
+}
+
+.nav-item:hover {
+  color: #fe7f9c;
+  /* shamrock green - #03AC13 */
+  /* baby blue - #89CFF0 */
+  /* watermelon pink - #FE7F9C */
+}
+
+/* ---------- hero section ---------- */
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 350;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.hero-desc {
+  margin: 1.15rem 0 3rem 0;
+  font-size: 1.025rem;
+}
+
+.hero-img {
+  width: 320px;
+  height: 320px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile-pic {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.social-icons {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.social-icon {
+  cursor: pointer;
+}
+
+/* ---------- about section ---------- */
+
+.about {
+  /* border: 1px solid red; */
+  padding: 70px 0;
+  background-color: #f9f9f9;
+}
+
+.about-container {
+  display: flex;
+  /* padding: 0 60px; */
+}
+
+.about-img-container {
+  /* padding: 0 30px; */
+}
+
+.about-img {
+  height: 350px;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  /* padding: 0 30px; */
+  justify-content: center;
+  gap: 30px;
+  padding-left: 60px;
+}
+
+.about-title {
+  color: #e24ea7;
+  font-size: 1.2rem;
+}
+
+.about-desc {
+  font-size: 1rem;
+  color: #606060;
+  line-height: 1.4;
+}
