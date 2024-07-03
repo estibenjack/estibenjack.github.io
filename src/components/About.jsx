@@ -25,9 +25,10 @@ export default function About() {
               <br />
               <br />
               In addition to my fluency in Spanish, French, and Portuguese, I
-              have developed a strong proficiency in HTML, CSS, and JavaScript.
-              My journey into the world of web development was driven by a
-              desire to create visually appealing and user-friendly interfaces.
+              have developed proficiency in HTML, CSS, and JavaScript - and
+              React is my focus at the moment. My journey into the world of web
+              development was driven by a desire to create visually appealing
+              and user-friendly interfaces.
             </p>
           </div>
         </div>
