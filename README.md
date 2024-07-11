@@ -1,3 +1,0 @@
-# estibenjack.github.io
-
-🚧 WIP

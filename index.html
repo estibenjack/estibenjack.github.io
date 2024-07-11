@@ -2,10 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Steven Jackson | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -13,10 +12,224 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Steven Jackson | Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/ol@v8.2.0/ol.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/ol@v8.2.0/dist/ol.js"></script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <header class="header">
+      <div class="header-container">
+        <img
+          src="img/memoji-smile.png"
+          alt="Memoji of Steven"
+          class="nav-memoji"
+        />
+        <div class="nav-options">
+          <nav class="navbar">
+            <ul>
+              <li><a href="#project-section" class="nav-item">Projects</a></li>
+              <li><a href="#about-section" class="nav-item">About</a></li>
+              <li><a href="#contact-section" class="nav-item">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="change-lang">
+            <p>EN</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
+      </div>
+    </header>
+    <nav class="mobile-nav">
+      <a href="#project-section" class="nav-item" onclick="hideNav()"
+        >Projects</a
+      >
+      <a href="#about-section" class="nav-item" onclick="hideNav()">About</a>
+      <a href="#contact-section" class="nav-item" onclick="hideNav()"
+        >Contact</a
+      >
+    </nav>
+    <main>
+      <div class="container">
+        <div class="banner">
+          <div class="banner-content">
+            <div class="banner-texts">
+              <h3>Hi there! I'm</h3>
+              <h1>Steven Jackson</h1>
+              <h3>frontend developer</h3>
+              <div class="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/steven-jackson-62b795193/"
+                  target="_blank"
+                >
+                  <div class="icon-container">
+                    <i class="fa-brands fa-linkedin social-icon"></i>
+                  </div>
+                </a>
+                <a href="https://github.com/estibenjack" target="_blank">
+                  <div class="icon-container">
+                    <i class="fa-brands fa-github social-icon"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="project-section" id="project-section">
+          <h2 class="section-title">Recent Projects</h2>
+          <div class="cards-container">
+            <div class="card card-1">
+              <div class="card-content">
+                <h2>Pokémon Soundboard</h2>
+                <p>
+                  This project was build using HTML, CSS and JavaScript. It's a
+                  Pokémon themed soundboard. Press the key on your keyboard to
+                  hear each Pokémon's sound!
+                </p>
+                <div class="card-btns-container">
+                  <a href="#"
+                    ><i class="fa-brands fa-github social-icon"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fa-solid fa-square-up-right social-icon"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="card card-2">
+              <div class="card-content">
+                <h2>Etch-a-sketch</h2>
+                <p>
+                  This project was build using HTML, CSS and JavaScript. It's a
+                  Pokémon themed soundboard. Press the key on your keyboard to
+                  hear each Pokémon's sound!
+                </p>
+                <div class="card-btns-container">
+                  <a href="#"
+                    ><i class="fa-brands fa-github social-icon"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fa-solid fa-square-up-right social-icon"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="card card-3">
+              <div class="card-content">
+                <h2>Travel Journal</h2>
+                <p>
+                  This project was build using HTML, CSS and JavaScript. It's a
+                  Pokémon themed soundboard. Press the key on your keyboard to
+                  hear each Pokémon's sound!
+                </p>
+                <div class="card-btns-container">
+                  <a href="#"
+                    ><i class="fa-brands fa-github social-icon"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fa-solid fa-square-up-right social-icon"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about-section" id="about-section">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-content">
+            <div class="about-left">
+              <img src="./img/profile-picture.jpeg" alt="Photo of Steven" />
+            </div>
+            <div class="about-right">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                illo corporis omnis. Iusto et id perspiciatis laborum
+                consequuntur. Deleniti, doloribus? Iste laudantium ut vel quasi
+                sequi, libero est!
+                <br />
+                <br />
+                Dolorem voluptatibus officiis voluptatum ullam voluptas odit
+                aliquid cumque reiciendis labore enim! Eligendi alias
+                exercitationem a laudantium reprehenderit?
+                <br /><br />
+                Fuga ut tempore, magni porro amet suscipit labore est aliquam
+                adipisci, laboriosam voluptates voluptate!
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- <section class="about-section">
+          <h2 class="section-title">About me</h2>
+          <div class="grid">
+            <div class="card-about about-text"></div>
+            <div class="card-about map" id="map"></div>
+            <div class="card-about"></div>
+            <div class="card-about"></div>
+          </div>
+          <div class="about-content">
+            <div class="about-left">
+              <img
+                src="./img/profile-picture.jpeg"
+                alt="Photo of Steven"
+                class="about-img"
+              />
+            </div>
+            <div class="about-right">
+              <p>
+                Feugiat congue, nec dapibus nibh etiam morbi congue condimentum.
+                Sociis dolor arcu facilisis. Suspendisse lacus erat curabitur
+                nec quam nibh ligula nibh urna commodo leo. Lorem at elit
+                pharetra eu aliquet magnis ante integer.
+                <br />
+                <br />
+                Maecenas fermentum egestas eros, integer venenatis. Rutrum
+                congue, quam mauris maecenas pellentesque placerat nibh.
+                Vestibulum felis ac curabitur. Consequat metus pharetra
+                porttitor dis tempor est, pulvinar class. Nulla rutrum commodo
+                est mus non. Lacus parturient inceptos donec facilisi ad
+                elementum facilisis amet praesent odio.
+                <br />
+                <br />
+                Consequat enim consectetur parturient quisque platea integer,
+                diam senectus. Adipiscing iaculis sed cubilia sodales primis
+                tempor ridiculus nam. Massa quam sagittis suspendisse justo
+                placerat scelerisque volutpat etiam aptent arcu.
+              </p>
+            </div>
+          </div>
+        </section> -->
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-socials">
+          <a
+            href="https://www.linkedin.com/in/steven-jackson-62b795193/"
+            target="_blank"
+          >
+            <div class="icon-container">
+              <i class="fa-brands fa-linkedin social-icon"></i>
+            </div>
+          </a>
+          <a href="https://github.com/estibenjack" target="_blank">
+            <div class="icon-container">
+              <i class="fa-brands fa-github social-icon"></i>
+            </div>
+          </a>
+        </div>
+        <p>© Steven Jackson 2024</p>
+      </div>
+    </footer>
+    <script src="index.js"></script>
   </body>
 </html>
