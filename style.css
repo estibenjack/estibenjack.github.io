@@ -266,7 +266,7 @@ body {
 .social-icons .social-icon:hover,
 .card a:hover,
 .footer-socials .social-icon:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 /* --- GENERIC --- */
@@ -413,7 +413,7 @@ body {
   max-width: 300px;
   aspect-ratio: 1/1.2;
   object-fit: cover;
-  border-radius: 15px;
+  border-radius: 8px;
 }
 
 .about-right p {
@@ -515,7 +515,7 @@ footer {
     width: 100%;
     max-width: 250px;
     aspect-ratio: 1/1;
-    border-radius: 15px;
+    border-radius: 12px;
     margin: auto 0;
   }
   .about-right {
