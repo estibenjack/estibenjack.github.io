@@ -28,7 +28,35 @@ document.addEventListener('DOMContentLoaded', () => {
         .querySelector('a')
         .getAttribute('data-lang');
       changeLanguage(selectedLang);
+      langOptionsContainer.classList.remove('open');
     });
+  });
+});
+
+// toggle open class functionality
+
+const langOptionsContainer = document.querySelector('.lang-options');
+const selectedLang = document.getElementById('selected-lang');
+
+selectedLang.addEventListener('click', function (event) {
+  event.preventDefault();
+  event.stopPropagation();
+  langOptionsContainer.classList.toggle('open');
+});
+
+document.addEventListener('click', function (event) {
+  if (
+    !langOptionsContainer.contains(event.target) &&
+    !selectedLang.contains(event.target)
+  ) {
+    langOptionsContainer.classList.remove('open');
+  }
+});
+
+const langOptions = document.querySelectorAll('.lang-options ul li');
+langOptions.forEach(option => {
+  option.addEventListener('click', function (event) {
+    event.stopPropagation();
   });
 });
 
@@ -54,7 +82,7 @@ function changeLanguage(lang) {
     selectedTranslations.nav.selected;
   document.querySelector(
     '.selected-flag'
-  ).src = `https://flagsapi.com/${selectedTranslations.nav.flag}/shiny/32.png`;
+  ).src = `https://flagsapi.com/${selectedTranslations.nav.flag}/shiny/64.png`;
   // Update banner
   document.getElementById('hi').textContent = selectedTranslations.banner.hi;
   document.querySelector('.banner-content h1').textContent =

@@ -100,13 +100,18 @@ body {
   position: relative;
 }
 
+.selected-flag {
+  height: 32px;
+  width: 32px;
+}
+
 /* .selected-lang::before, */
 .flag {
-  content: '';
-  /* display: block; */
+  /* content: '';
+  display: block; */
   width: 32px;
   height: 32px;
-  background-image: url(https://flagsapi.com/GB/shiny/32.png);
+  /* background-image: url(https://flagsapi.com/GB/shiny/32.png); */
 }
 
 .lang-options ul {
@@ -120,7 +125,8 @@ body {
   display: none;
 }
 
-.lang-options:hover ul {
+/* .lang-options:hover ul { */
+.lang-options.open ul {
   display: block;
 }
 
@@ -128,21 +134,23 @@ body {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  align-content: center;
 }
 
 .lang-options ul li a {
   width: fit-content;
-  display: block;
+  display: flex;
   padding: 7px 12px;
   width: 100%;
   color: white;
   text-decoration: none;
   letter-spacing: 0.02rem;
+  align-items: center;
 }
 
 /* .lang-options ul li a:before, */
 .flag {
-  content: '';
+  /* content: ''; */
   display: inline-block;
   width: 32px;
   height: 32px;
@@ -603,4 +611,10 @@ footer {
     flex: 1;
     padding: 0;
   }
+}
+
+@media (hover: none) {
+  /* .lang-options:touch-action ul {
+    display: block;
+  } */
 }
