@@ -23,10 +23,10 @@ export const translations = {
       abouttext: `Hi! I'm Steven, a passionate self-taught developer from Belfast, Ireland.
             <br />
             <br />
-            I've always had a passion for languages. I studied Spanish and French at university, and along the way, I picked up Portuguese. Exploring different cultures through languages has been an amazing adventure! Now, I'm super excited to be diving into the world of web development.
+            I've always had a huge passion for languages. I studied Spanish and French at university, and along the way, I learned up Portuguese. Exploring different cultures through languages has been an amazing adventure! Now, I'm super excited to be diving into the world of web development.
             <br />
             <br />
-            Lately, I've enjoyed learning frontend web development, sharpening my skills in HTML, CSS, and JavaScript, while also starting my journey with ReactJS. I can't wait to keep learning and see the incredible projects I'll create!`,
+            Lately, I've enjoyed learning frontend web development, sharpening my skills in HTML, CSS, and JavaScript, while also starting my journey with ReactJS. I can't wait to keep learning!`,
     },
     contactsection: {
       contacttitle: 'Contact Me',
