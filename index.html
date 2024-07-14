@@ -41,27 +41,86 @@
         <div class="nav-options">
           <nav class="navbar">
             <ul>
-              <li><a href="#project-section" class="nav-item">Projects</a></li>
-              <li><a href="#about-section" class="nav-item">About</a></li>
-              <li><a href="#contact-section" class="nav-item">Contact</a></li>
+              <li>
+                <a href="#project-section" class="nav-item" id="projects"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a href="#about-section" class="nav-item" id="about">About</a>
+              </li>
+              <li>
+                <a href="#contact-section" class="nav-item" id="contact"
+                  >Contact</a
+                >
+              </li>
             </ul>
           </nav>
-          <div class="change-lang">
-            <p>EN</p>
-            <i class="fa-solid fa-chevron-down"></i>
+          <div class="lang-options">
+            <div class="selected-lang" id="selected-lang">
+              <img
+                src="https://flagsapi.com/GB/shiny/32.png"
+                class="selected-flag"
+              /><span class="lang-text">EN</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <ul>
+              <li>
+                <a class="en" href="#" data-lang="english"
+                  ><img
+                    src="https://flagsapi.com/GB/shiny/32.png"
+                    class="flag"
+                  />EN</a
+                >
+              </li>
+              <li>
+                <a class="es" href="#" data-lang="spanish"
+                  ><img
+                    src="https://flagsapi.com/ES/shiny/32.png"
+                    class="flag"
+                  />ES</a
+                >
+              </li>
+              <li>
+                <a class="pt" href="#" data-lang="portuguese"
+                  ><img
+                    src="https://flagsapi.com/BR/shiny/32.png"
+                    class="flag"
+                  />PT</a
+                >
+              </li>
+              <li>
+                <a class="fr" href="#" data-lang="french"
+                  ><img
+                    src="https://flagsapi.com/FR/shiny/32.png"
+                    class="flag"
+                  />FR</a
+                >
+              </li>
+            </ul>
           </div>
+          <button class="hamburger">
+            <div class="bar"></div>
+          </button>
         </div>
-        <button class="hamburger">
-          <div class="bar"></div>
-        </button>
       </div>
     </header>
     <nav class="mobile-nav">
-      <a href="#project-section" class="nav-item" onclick="hideNav()"
+      <a
+        href="#project-section"
+        class="nav-item"
+        id="projects"
+        onclick="hideNav()"
         >Projects</a
       >
-      <a href="#about-section" class="nav-item" onclick="hideNav()">About</a>
-      <a href="#contact-section" class="nav-item" onclick="hideNav()"
+      <a href="#about-section" class="nav-item" id="about" onclick="hideNav()"
+        >About</a
+      >
+      <a
+        href="#contact-section"
+        class="nav-item"
+        id="contact"
+        onclick="hideNav()"
         >Contact</a
       >
     </nav>
@@ -70,9 +129,9 @@
         <div class="banner">
           <div class="banner-content">
             <div class="banner-texts">
-              <h3>Hi there! I'm</h3>
+              <h3 id="hi">Hi there! I'm</h3>
               <h1>Steven Jackson</h1>
-              <h3>frontend developer</h3>
+              <h3 id="job">frontend developer</h3>
               <div class="social-icons">
                 <a
                   href="https://www.linkedin.com/in/steven-jackson-62b795193/"
@@ -92,15 +151,16 @@
           </div>
         </div>
         <section class="project-section" id="project-section">
-          <h2 class="section-title">Recent Projects</h2>
+          <h2 class="section-title" id="projectstitle">Recent Projects</h2>
           <div class="cards-container">
             <div class="card card-1">
               <div class="card-content">
                 <h2>Pokémon Soundboard</h2>
-                <p>
-                  This project was build using HTML, CSS and JavaScript. It's a
-                  Pokémon themed soundboard. Press the corresponding keys on
-                  your keyboard to hear each Pokémon's sound!
+                <p id="description1">
+                  This project was build using <b>HTML</b>, <b>CSS</b> and
+                  <b>JavaScript</b>. It's a Pokémon themed soundboard. Press the
+                  corresponding keys on your keyboard to hear each Pokémon's
+                  sound!
                 </p>
                 <div class="card-btns-container">
                   <a
@@ -119,7 +179,7 @@
             <div class="card card-2">
               <div class="card-content">
                 <h2>Etch-a-sketch</h2>
-                <p>
+                <p id="description2">
                   This project was built using <b>HTML</b>, <b>CSS</b>, and
                   <b>JavaScript</b>. It's an interactive Etch-a-Sketch
                   application. Use your mouse to create drawings on the screen,
@@ -142,7 +202,7 @@
             <div class="card card-3">
               <div class="card-content">
                 <h2>Travel Journal</h2>
-                <p>
+                <p id="description3">
                   This project was built using <b>ReactJS</b>. It's a travel
                   journal page showing three destinations with photos,
                   descriptions and links. Easily navigate through your entries
@@ -165,13 +225,13 @@
           </div>
         </section>
         <section class="about-section" id="about-section">
-          <h2 class="section-title">About Me</h2>
+          <h2 class="section-title" id="abouttitle">About Me</h2>
           <div class="about-content">
             <div class="about-left">
               <img src="./img/profile-picture.jpeg" alt="Photo of Steven" />
             </div>
             <div class="about-right">
-              <p>
+              <p id="abouttext">
                 Hi! I'm Steven, a self-taught developer from Belfast, Ireland.
                 <br />
                 <br />
@@ -231,7 +291,7 @@
     </main>
     <footer class="footer">
       <div class="footer-container">
-        <h3 class="section-title" id="contact-section">Contact</h3>
+        <h3 class="section-title" id="contact-section">Contact Me</h3>
         <div class="footer-socials">
           <a
             href="https://www.linkedin.com/in/steven-jackson-62b795193/"
@@ -250,6 +310,6 @@
         <p>© Steven Jackson 2024</p>
       </div>
     </footer>
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
   </body>
 </html>
