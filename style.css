@@ -356,7 +356,7 @@ body {
 /* --- GENERIC --- */
 
 .section-title {
-  padding: 40px 20px 50px;
+  padding: 40px 20px 40px;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   text-align: center;
@@ -366,6 +366,10 @@ body {
 
 .project-section {
   padding-bottom: 80px;
+}
+
+.project-section .section-title {
+  padding: 0px 20px 40px;
 }
 
 .cards-container {
