@@ -2,11 +2,16 @@
 
 const menuBtn = document.querySelector('.hamburger');
 const mobileNav = document.querySelector('.mobile-nav');
+const navLinks = document.querySelectorAll('.mobile-nav .nav-item');
 
 window.onload = function () {
   menuBtn.addEventListener('click', function () {
     menuBtn.classList.toggle('is-active');
     mobileNav.classList.toggle('is-active');
+  });
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', hideNav);
   });
 };
 
