@@ -115,6 +115,10 @@ function changeLanguage(lang) {
     selectedTranslations.contactsection.contacttitle;
 }
 
+ // Current year in footer
+ const currentYear = new Date().getFullYear();
+ document.getElementById('current-year').textContent = currentYear;
+
 // ---- MAP ---- //
 
 // const map = new ol.Map({

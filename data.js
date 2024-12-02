@@ -10,7 +10,7 @@ export const translations = {
     banner: {
       hi: "Hi there! I'm",
       name: 'Steven Jackson',
-      job: 'Frontend Developer',
+      job: 'Software Engineer',
     },
     projectsection: {
       projectstitle: 'Recent Projects',
@@ -20,13 +20,13 @@ export const translations = {
     },
     aboutsection: {
       abouttitle: 'About Me',
-      abouttext: `Hi! I'm Steven, a passionate self-taught developer from Belfast, Ireland.
+      abouttext: `Hi! I'm Steven, a passionate self-taught coder turned MSc Software Development student from Belfast, Ireland.
             <br />
             <br />
-            I've always had a huge passion for languages. I studied Spanish and French at university, and along the way, I learned up Portuguese. Exploring different cultures through languages has been an amazing adventure! Now, I'm super excited to be diving into the world of web development.
+            I've always had a huge passion for languages. I studied Spanish and French at university, and along the way, I picked up Portuguese. Exploring different cultures through languages has been an amazing adventure! Now, I'm super excited to be diving into the world of programming.
             <br />
             <br />
-            Lately, I've enjoyed learning frontend web development, sharpening my skills in HTML, CSS, and JavaScript, while also starting my journey with ReactJS. I can't wait to keep learning!`,
+            My coding journey began with self-study, diving into web development using free online resources. I started with HTML, CSS, JavaScript and React, and quickly fell in love with the process of problem-solving and creating solutions. Wanting to formalise my studies, I'm now pursuing an MSc in Software Development. Since starting my master's, I've expanded my knowledge by learning Java, enhancing my Object-Oriented Programming skills, and strengthening my understanding of core computing concepts. Every day brings new challenges and learning opportunities, and I'm excited to keep growing as a developer.`,
     },
     contactsection: {
       contacttitle: 'Contact Me',
@@ -43,7 +43,7 @@ export const translations = {
     banner: {
       hi: 'Hola! Soy',
       name: 'Steven Jackson',
-      job: 'Desarrollador Frontend',
+      job: 'Desarrollador de Software',
     },
     projectsection: {
       projectstitle: 'Proyectos Recientes',
@@ -53,13 +53,13 @@ export const translations = {
     },
     aboutsection: {
       abouttitle: 'Sobre Mí',
-      abouttext: `¡Hola! Soy Steven, un desarrollador apasionado y autodidacta de Belfast, Irlanda.
+      abouttext: `¡Hola! Soy Steven, un apasionado autodidacta de la programación convertido en estudiante de Máster en Desarrollo de Software, de Belfast, Irlanda.
             <br />
             <br />
-            Siempre he tenido una gran pasión por los idiomas. Estudié español y francés en la universidad, y durante ese tiempo, también aprendí portugués. ¡Explorar diferentes culturas a través de los idiomas ha sido una aventura increíble! Ahora, estoy súper emocionado de estar embarcándome en el mundo del desarrollo web.
+            Siempre he tenido una gran pasión por los idiomas. Estudié español y francés en la universidad, y durante ese tiempo, también aprendí portugués. ¡Explorar diferentes culturas a través de los idiomas ha sido una aventura increíble! Ahora, estoy súper emocionado de estar embarcándome en el mundo de la programación.
             <br />
             <br />
-            Últimamente, he disfrutado de aprender desarrollo web frontend, perfeccionando mis habilidades en HTML, CSS y JavaScript, mientras empiezo mi aventura con ReactJS. ¡Tengo muchas ganas de seguir aprendiendo!`,
+            Mi viaje en la programación comenzó con autoaprendizaje, adentrándome en el desarrollo web mediante recursos gratuitos en línea. Comencé con HTML, CSS, JavaScript y React, y rápidamente me enamoré del proceso de resolver problemas y crear soluciones. Con el deseo de formalizar mis estudios, actualmente estoy cursando un máster en Desarrollo de Software. Desde que comencé mi máster, he ampliado mis conocimientos aprendiendo Java, mejorando mis habilidades en Programación Orientada a Objetos y fortaleciendo mi comprensión de los conceptos fundamentales de la informática. Cada día trae nuevos retos y oportunidades de aprendizaje, y estoy emocionado de seguir creciendo como desarrollador.`,
     },
     contactsection: {
       contacttitle: 'Contáctame',
@@ -76,7 +76,7 @@ export const translations = {
     banner: {
       hi: 'Olá! Eu sou',
       name: 'Steven Jackson',
-      job: 'Desenvolvedor Frontend',
+      job: 'Desenvolvedor de Software',
     },
     projectsection: {
       projectstitle: 'Projetos Recentes',
@@ -86,13 +86,13 @@ export const translations = {
     },
     aboutsection: {
       abouttitle: 'Sobre Mim',
-      abouttext: `Olá! Meu nome é Steven e sou um desenvolvedor apaixonado e autodidata de Belfast, Irlanda.
+      abouttext: `Oi! Eu sou o Steven, um apaixonado programador autodidata que se tornou estudante de Mestrado em Desenvolvimento de Software, de Belfast, Irlanda.
                 <br />
                 <br />
-                Sempre tive uma profunda paixão pelas línguas. Estudei espanhol e francês na universidade e, durante esse período, também aprendi português. A oportunidade de explorar diferentes culturas através das línguas tem sido enriquecedora. Agora, estou super animado por estar mergulhando no mundo do desenvolvimento web.
+                Sempre tive uma profunda paixão pelas línguas. Estudei espanhol e francês na universidade e, durante esse período, também aprendi português. A oportunidade de explorar diferentes culturas através das línguas tem sido enriquecedora. Agora, estou super animado por estar mergulhando no mundo da programação.
                 <br />
                 <br />
-                Recentemente, tenho me divertido aprendendo desenvolvimento web frontend, aprimorando minhas habilidades em HTML, CSS e JavaScript, enquanto começo jornada com ReactJS. Estou ansioso para continuar aprendendo!`,
+                A minha jornada na programação começou com autoaprendizagem, mergulhando no desenvolvimento web através de recursos gratuitos online. Comecei com HTML, CSS, JavaScript e React, e rapidamente me apaixonei pelo processo de resolver problemas e criar soluções. Com o objetivo de formalizar os meus estudos, estou atualmente a tirar um mestrado em Desenvolvimento de Software. Desde o início do mestrado, expandi os meus conhecimentos, aprendendo Java, aprimorando as minhas competências em Programação Orientada a Objetos e reforçando a minha compreensão dos conceitos fundamentais da computação. Todos os dias trazem novos desafios e oportunidades de aprendizagem, e estou entusiasmado por continuar a crescer como programador.`,
     },
     contactsection: {
       contacttitle: 'Contate-me',
@@ -109,7 +109,7 @@ export const translations = {
     banner: {
       hi: 'Salut! Je suis',
       name: 'Steven Jackson',
-      job: 'Développeur Frontend',
+      job: 'Développeur de Logiciels',
     },
     projectsection: {
       projectstitle: 'Projets Récents',
@@ -122,13 +122,13 @@ export const translations = {
     },
     aboutsection: {
       abouttitle: 'À propos de moi',
-      abouttext: `Salut ! Je m'appelle Steven et je suis un développeur passionné et autodidacte de Belfast, en Irlande.
+      abouttext: `Salut ! Je suis Steven, un passionné de programmation autodidacte devenu étudiant en Master en Développement Logiciel, originaire de Belfast, Irlande.
                 <br />
                 <br />
                 J'ai toujours eu une immense passion pour les langues. J'ai étudié l'espagnol et le français à l'université, et durant cette période, j'ai aussi appris le portugais. La possibilité d'explorer différentes cultures à travers les langues a été enrichissante. Maintenant, je suis super enthousiaste de me plonger dans le monde de la programmation.
                 <br />
                 <br />
-                Dernièrement, j'ai pris plaisir à apprendre développement web frontend, en perfectionnant compétences en HTML, CSS et JavaScript, tout en commençant mon aventure avec ReactJS. J'ai vraiment hâte de poursuivre mon apprentissage !`,
+                Mon parcours dans la programmation a commencé par de l'auto-apprentissage, me plongeant dans le développement web grâce à des ressources gratuites en ligne. J'ai commencé avec HTML, CSS, JavaScript et React, et je suis rapidement tombé amoureux du processus de résolution de problèmes et de création de solutions. Souhaitant formaliser mes études, je poursuis actuellement un master en Développement Logiciel. Depuis le début de mon master, j'ai élargi mes connaissances en apprenant Java, en améliorant mes compétences en Programmation Orientée Objet et en renforçant ma compréhension des concepts fondamentaux de l'informatique. Chaque jour apporte de nouveaux défis et opportunités d'apprentissage, et je suis enthousiaste à l'idée de continuer à progresser en tant que développeur.`,
     },
     contactsection: {
       contacttitle: 'Contactez-moi',
